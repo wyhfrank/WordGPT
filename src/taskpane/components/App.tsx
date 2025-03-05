@@ -7,7 +7,7 @@ import Login from "./Login";
 /* global Word, localStorage, navigator */
 
 export default function App() {
-  const defaultPrompt = `Refine the English to make it more legal:`;
+  const defaultPrompt = `Revise the text by correct only grammar mistakes. Do not change anything else. Do not change acceptable wording.\n---\n`;
   // const defaultPrompt = `Refine the Chinese to make it more legal, do not add additional information:`;
   // const defaultPrompt = `将下面中文改写得更符合合同规范:`;
 
